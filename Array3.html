@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Arrays: Task 3</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+
+    <section class="preview">
+
+
+
+     </section>
+
+  </body>
+  <script>
+    let myArray = [ "Ryu(0)", "Ken(1)", "Chun-Li(2)", "Cammy(3)", "Guile(4)", "Sakura(5)", "Sagat(6)", "Juri(7)" ];
+    myArray.pop()
+    myArray.unshift['bella', 'kuti']
+    myString = myArray.join('-')
+
+    // Add your code here
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('section');
+
+    let para1 = document.createElement('p');
+    para1.textContent = myString;
+
+    section.appendChild(para1);
+  </script>
+
+</html>
